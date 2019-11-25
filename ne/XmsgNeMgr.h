@@ -36,9 +36,9 @@ public:
 	shared_ptr<XmsgNeUsr> remove(const string& neg); 
 	static XmsgNeMgr* instance();
 public:
-	shared_ptr<XmsgNeUsr> addSubClientEstbEventGroup(shared_ptr<XmsgNeUsr> group); 
+	shared_ptr<XmsgNeUsr> addSubClientEstbEventGroup(shared_ptr<XmsgNeUsr> nu); 
 	void getSubClientEstbEventGroup(list<shared_ptr<XmsgNeUsr>>& lis); 
-	shared_ptr<XmsgNeUsr> addSubClientDiscEventGroup(shared_ptr<XmsgNeUsr> group); 
+	shared_ptr<XmsgNeUsr> addSubClientDiscEventGroup(shared_ptr<XmsgNeUsr> nu); 
 	void getSubClientDiscEventGroup(list<shared_ptr<XmsgNeUsr>>& lis); 
 public:
 	unordered_map<string , shared_ptr<XmsgNeUsr>> nes; 
