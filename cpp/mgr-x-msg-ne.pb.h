@@ -39,61 +39,508 @@ namespace protobuf_mgr_2dx_2dmsg_2dne_2eproto {
 struct TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
-  static const ::google::protobuf::internal::ParseTable schema[4];
+  static const ::google::protobuf::internal::ParseTable schema[7];
   static const ::google::protobuf::internal::FieldMetadata field_metadata[];
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
 };
 void AddDescriptors();
-void InitDefaultsXmsgImMgrNeNetLoadReq_ExtEntry_DoNotUseImpl();
-void InitDefaultsXmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse();
+void InitDefaultsXmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUseImpl();
+void InitDefaultsXmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse();
+void InitDefaultsXmsgImMgrNeXscServerQueryReqImpl();
+void InitDefaultsXmsgImMgrNeXscServerQueryReq();
+void InitDefaultsXmsgImMgrNeXscServerQueryRspImpl();
+void InitDefaultsXmsgImMgrNeXscServerQueryRsp();
+void InitDefaultsXmsgImMgrNeXscWorkerCountReqImpl();
+void InitDefaultsXmsgImMgrNeXscWorkerCountReq();
+void InitDefaultsXmsgImMgrNeXscWorkerCountRspImpl();
+void InitDefaultsXmsgImMgrNeXscWorkerCountRsp();
 void InitDefaultsXmsgImMgrNeNetLoadReqImpl();
 void InitDefaultsXmsgImMgrNeNetLoadReq();
-void InitDefaultsXmsgImMgrNeNetLoadRsp_KvEntry_DoNotUseImpl();
-void InitDefaultsXmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse();
 void InitDefaultsXmsgImMgrNeNetLoadRspImpl();
 void InitDefaultsXmsgImMgrNeNetLoadRsp();
 inline void InitDefaults() {
-  InitDefaultsXmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse();
+  InitDefaultsXmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse();
+  InitDefaultsXmsgImMgrNeXscServerQueryReq();
+  InitDefaultsXmsgImMgrNeXscServerQueryRsp();
+  InitDefaultsXmsgImMgrNeXscWorkerCountReq();
+  InitDefaultsXmsgImMgrNeXscWorkerCountRsp();
   InitDefaultsXmsgImMgrNeNetLoadReq();
-  InitDefaultsXmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse();
   InitDefaultsXmsgImMgrNeNetLoadRsp();
 }
 }  // namespace protobuf_mgr_2dx_2dmsg_2dne_2eproto
 class XmsgImMgrNeNetLoadReq;
 class XmsgImMgrNeNetLoadReqDefaultTypeInternal;
 extern XmsgImMgrNeNetLoadReqDefaultTypeInternal _XmsgImMgrNeNetLoadReq_default_instance_;
-class XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse;
-class XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUseDefaultTypeInternal;
-extern XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUseDefaultTypeInternal _XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse_default_instance_;
 class XmsgImMgrNeNetLoadRsp;
 class XmsgImMgrNeNetLoadRspDefaultTypeInternal;
 extern XmsgImMgrNeNetLoadRspDefaultTypeInternal _XmsgImMgrNeNetLoadRsp_default_instance_;
-class XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse;
-class XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUseDefaultTypeInternal;
-extern XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUseDefaultTypeInternal _XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse_default_instance_;
+class XmsgImMgrNeXscServerQueryReq;
+class XmsgImMgrNeXscServerQueryReqDefaultTypeInternal;
+extern XmsgImMgrNeXscServerQueryReqDefaultTypeInternal _XmsgImMgrNeXscServerQueryReq_default_instance_;
+class XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse;
+class XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUseDefaultTypeInternal;
+extern XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUseDefaultTypeInternal _XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse_default_instance_;
+class XmsgImMgrNeXscServerQueryRsp;
+class XmsgImMgrNeXscServerQueryRspDefaultTypeInternal;
+extern XmsgImMgrNeXscServerQueryRspDefaultTypeInternal _XmsgImMgrNeXscServerQueryRsp_default_instance_;
+class XmsgImMgrNeXscWorkerCountReq;
+class XmsgImMgrNeXscWorkerCountReqDefaultTypeInternal;
+extern XmsgImMgrNeXscWorkerCountReqDefaultTypeInternal _XmsgImMgrNeXscWorkerCountReq_default_instance_;
+class XmsgImMgrNeXscWorkerCountRsp;
+class XmsgImMgrNeXscWorkerCountRspDefaultTypeInternal;
+extern XmsgImMgrNeXscWorkerCountRspDefaultTypeInternal _XmsgImMgrNeXscWorkerCountRsp_default_instance_;
 
 // ===================================================================
 
-class XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse : public ::google::protobuf::internal::MapEntry<XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse, 
+class XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse : public ::google::protobuf::internal::MapEntry<XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse, 
     ::std::string, ::std::string,
     ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
     ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
     0 > {
 public:
-  typedef ::google::protobuf::internal::MapEntry<XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse, 
+  typedef ::google::protobuf::internal::MapEntry<XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse, 
     ::std::string, ::std::string,
     ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
     ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
     0 > SuperType;
-  XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse();
-  XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse(::google::protobuf::Arena* arena);
-  void MergeFrom(const XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse& other);
-  static const XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse* internal_default_instance() { return reinterpret_cast<const XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse*>(&_XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse_default_instance_); }
+  XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse();
+  XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse(::google::protobuf::Arena* arena);
+  void MergeFrom(const XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse& other);
+  static const XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse* internal_default_instance() { return reinterpret_cast<const XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse*>(&_XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse_default_instance_); }
   void MergeFrom(const ::google::protobuf::Message& other) PROTOBUF_FINAL;
   ::google::protobuf::Metadata GetMetadata() const;
 };
 
+// -------------------------------------------------------------------
+
+class XmsgImMgrNeXscServerQueryReq : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:XmsgImMgrNeXscServerQueryReq) */ {
+ public:
+  XmsgImMgrNeXscServerQueryReq();
+  virtual ~XmsgImMgrNeXscServerQueryReq();
+
+  XmsgImMgrNeXscServerQueryReq(const XmsgImMgrNeXscServerQueryReq& from);
+
+  inline XmsgImMgrNeXscServerQueryReq& operator=(const XmsgImMgrNeXscServerQueryReq& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  XmsgImMgrNeXscServerQueryReq(XmsgImMgrNeXscServerQueryReq&& from) noexcept
+    : XmsgImMgrNeXscServerQueryReq() {
+    *this = ::std::move(from);
+  }
+
+  inline XmsgImMgrNeXscServerQueryReq& operator=(XmsgImMgrNeXscServerQueryReq&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const XmsgImMgrNeXscServerQueryReq& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const XmsgImMgrNeXscServerQueryReq* internal_default_instance() {
+    return reinterpret_cast<const XmsgImMgrNeXscServerQueryReq*>(
+               &_XmsgImMgrNeXscServerQueryReq_default_instance_);
+  }
+  static PROTOBUF_CONSTEXPR int const kIndexInFileMessages =
+    1;
+
+  void Swap(XmsgImMgrNeXscServerQueryReq* other);
+  friend void swap(XmsgImMgrNeXscServerQueryReq& a, XmsgImMgrNeXscServerQueryReq& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline XmsgImMgrNeXscServerQueryReq* New() const PROTOBUF_FINAL { return New(NULL); }
+
+  XmsgImMgrNeXscServerQueryReq* New(::google::protobuf::Arena* arena) const PROTOBUF_FINAL;
+  void CopyFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void MergeFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void CopyFrom(const XmsgImMgrNeXscServerQueryReq& from);
+  void MergeFrom(const XmsgImMgrNeXscServerQueryReq& from);
+  void Clear() PROTOBUF_FINAL;
+  bool IsInitialized() const PROTOBUF_FINAL;
+
+  size_t ByteSizeLong() const PROTOBUF_FINAL;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) PROTOBUF_FINAL;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const PROTOBUF_FINAL;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const PROTOBUF_FINAL;
+  int GetCachedSize() const PROTOBUF_FINAL { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const PROTOBUF_FINAL;
+  void InternalSwap(XmsgImMgrNeXscServerQueryReq* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const PROTOBUF_FINAL;
+
+  // nested types ----------------------------------------------------
+
+
+  // accessors -------------------------------------------------------
+
+  // map<string, string> ext = 1;
+  int ext_size() const;
+  void clear_ext();
+  static const int kExtFieldNumber = 1;
+  const ::google::protobuf::Map< ::std::string, ::std::string >&
+      ext() const;
+  ::google::protobuf::Map< ::std::string, ::std::string >*
+      mutable_ext();
+
+  // @@protoc_insertion_point(class_scope:XmsgImMgrNeXscServerQueryReq)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::internal::MapField<
+      XmsgImMgrNeXscServerQueryReq_ExtEntry_DoNotUse,
+      ::std::string, ::std::string,
+      ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
+      ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
+      0 > ext_;
+  mutable int _cached_size_;
+  friend struct ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::TableStruct;
+  friend void ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::InitDefaultsXmsgImMgrNeXscServerQueryReqImpl();
+};
+// -------------------------------------------------------------------
+
+class XmsgImMgrNeXscServerQueryRsp : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:XmsgImMgrNeXscServerQueryRsp) */ {
+ public:
+  XmsgImMgrNeXscServerQueryRsp();
+  virtual ~XmsgImMgrNeXscServerQueryRsp();
+
+  XmsgImMgrNeXscServerQueryRsp(const XmsgImMgrNeXscServerQueryRsp& from);
+
+  inline XmsgImMgrNeXscServerQueryRsp& operator=(const XmsgImMgrNeXscServerQueryRsp& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  XmsgImMgrNeXscServerQueryRsp(XmsgImMgrNeXscServerQueryRsp&& from) noexcept
+    : XmsgImMgrNeXscServerQueryRsp() {
+    *this = ::std::move(from);
+  }
+
+  inline XmsgImMgrNeXscServerQueryRsp& operator=(XmsgImMgrNeXscServerQueryRsp&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const XmsgImMgrNeXscServerQueryRsp& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const XmsgImMgrNeXscServerQueryRsp* internal_default_instance() {
+    return reinterpret_cast<const XmsgImMgrNeXscServerQueryRsp*>(
+               &_XmsgImMgrNeXscServerQueryRsp_default_instance_);
+  }
+  static PROTOBUF_CONSTEXPR int const kIndexInFileMessages =
+    2;
+
+  void Swap(XmsgImMgrNeXscServerQueryRsp* other);
+  friend void swap(XmsgImMgrNeXscServerQueryRsp& a, XmsgImMgrNeXscServerQueryRsp& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline XmsgImMgrNeXscServerQueryRsp* New() const PROTOBUF_FINAL { return New(NULL); }
+
+  XmsgImMgrNeXscServerQueryRsp* New(::google::protobuf::Arena* arena) const PROTOBUF_FINAL;
+  void CopyFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void MergeFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void CopyFrom(const XmsgImMgrNeXscServerQueryRsp& from);
+  void MergeFrom(const XmsgImMgrNeXscServerQueryRsp& from);
+  void Clear() PROTOBUF_FINAL;
+  bool IsInitialized() const PROTOBUF_FINAL;
+
+  size_t ByteSizeLong() const PROTOBUF_FINAL;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) PROTOBUF_FINAL;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const PROTOBUF_FINAL;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const PROTOBUF_FINAL;
+  int GetCachedSize() const PROTOBUF_FINAL { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const PROTOBUF_FINAL;
+  void InternalSwap(XmsgImMgrNeXscServerQueryRsp* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const PROTOBUF_FINAL;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated string name = 1;
+  int name_size() const;
+  void clear_name();
+  static const int kNameFieldNumber = 1;
+  const ::std::string& name(int index) const;
+  ::std::string* mutable_name(int index);
+  void set_name(int index, const ::std::string& value);
+  #if LANG_CXX11
+  void set_name(int index, ::std::string&& value);
+  #endif
+  void set_name(int index, const char* value);
+  void set_name(int index, const char* value, size_t size);
+  ::std::string* add_name();
+  void add_name(const ::std::string& value);
+  #if LANG_CXX11
+  void add_name(::std::string&& value);
+  #endif
+  void add_name(const char* value);
+  void add_name(const char* value, size_t size);
+  const ::google::protobuf::RepeatedPtrField< ::std::string>& name() const;
+  ::google::protobuf::RepeatedPtrField< ::std::string>* mutable_name();
+
+  // @@protoc_insertion_point(class_scope:XmsgImMgrNeXscServerQueryRsp)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::std::string> name_;
+  mutable int _cached_size_;
+  friend struct ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::TableStruct;
+  friend void ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::InitDefaultsXmsgImMgrNeXscServerQueryRspImpl();
+};
+// -------------------------------------------------------------------
+
+class XmsgImMgrNeXscWorkerCountReq : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:XmsgImMgrNeXscWorkerCountReq) */ {
+ public:
+  XmsgImMgrNeXscWorkerCountReq();
+  virtual ~XmsgImMgrNeXscWorkerCountReq();
+
+  XmsgImMgrNeXscWorkerCountReq(const XmsgImMgrNeXscWorkerCountReq& from);
+
+  inline XmsgImMgrNeXscWorkerCountReq& operator=(const XmsgImMgrNeXscWorkerCountReq& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  XmsgImMgrNeXscWorkerCountReq(XmsgImMgrNeXscWorkerCountReq&& from) noexcept
+    : XmsgImMgrNeXscWorkerCountReq() {
+    *this = ::std::move(from);
+  }
+
+  inline XmsgImMgrNeXscWorkerCountReq& operator=(XmsgImMgrNeXscWorkerCountReq&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const XmsgImMgrNeXscWorkerCountReq& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const XmsgImMgrNeXscWorkerCountReq* internal_default_instance() {
+    return reinterpret_cast<const XmsgImMgrNeXscWorkerCountReq*>(
+               &_XmsgImMgrNeXscWorkerCountReq_default_instance_);
+  }
+  static PROTOBUF_CONSTEXPR int const kIndexInFileMessages =
+    3;
+
+  void Swap(XmsgImMgrNeXscWorkerCountReq* other);
+  friend void swap(XmsgImMgrNeXscWorkerCountReq& a, XmsgImMgrNeXscWorkerCountReq& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline XmsgImMgrNeXscWorkerCountReq* New() const PROTOBUF_FINAL { return New(NULL); }
+
+  XmsgImMgrNeXscWorkerCountReq* New(::google::protobuf::Arena* arena) const PROTOBUF_FINAL;
+  void CopyFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void MergeFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void CopyFrom(const XmsgImMgrNeXscWorkerCountReq& from);
+  void MergeFrom(const XmsgImMgrNeXscWorkerCountReq& from);
+  void Clear() PROTOBUF_FINAL;
+  bool IsInitialized() const PROTOBUF_FINAL;
+
+  size_t ByteSizeLong() const PROTOBUF_FINAL;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) PROTOBUF_FINAL;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const PROTOBUF_FINAL;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const PROTOBUF_FINAL;
+  int GetCachedSize() const PROTOBUF_FINAL { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const PROTOBUF_FINAL;
+  void InternalSwap(XmsgImMgrNeXscWorkerCountReq* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const PROTOBUF_FINAL;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // string name = 1;
+  void clear_name();
+  static const int kNameFieldNumber = 1;
+  const ::std::string& name() const;
+  void set_name(const ::std::string& value);
+  #if LANG_CXX11
+  void set_name(::std::string&& value);
+  #endif
+  void set_name(const char* value);
+  void set_name(const char* value, size_t size);
+  ::std::string* mutable_name();
+  ::std::string* release_name();
+  void set_allocated_name(::std::string* name);
+
+  // @@protoc_insertion_point(class_scope:XmsgImMgrNeXscWorkerCountReq)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::internal::ArenaStringPtr name_;
+  mutable int _cached_size_;
+  friend struct ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::TableStruct;
+  friend void ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::InitDefaultsXmsgImMgrNeXscWorkerCountReqImpl();
+};
+// -------------------------------------------------------------------
+
+class XmsgImMgrNeXscWorkerCountRsp : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:XmsgImMgrNeXscWorkerCountRsp) */ {
+ public:
+  XmsgImMgrNeXscWorkerCountRsp();
+  virtual ~XmsgImMgrNeXscWorkerCountRsp();
+
+  XmsgImMgrNeXscWorkerCountRsp(const XmsgImMgrNeXscWorkerCountRsp& from);
+
+  inline XmsgImMgrNeXscWorkerCountRsp& operator=(const XmsgImMgrNeXscWorkerCountRsp& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  XmsgImMgrNeXscWorkerCountRsp(XmsgImMgrNeXscWorkerCountRsp&& from) noexcept
+    : XmsgImMgrNeXscWorkerCountRsp() {
+    *this = ::std::move(from);
+  }
+
+  inline XmsgImMgrNeXscWorkerCountRsp& operator=(XmsgImMgrNeXscWorkerCountRsp&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const XmsgImMgrNeXscWorkerCountRsp& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const XmsgImMgrNeXscWorkerCountRsp* internal_default_instance() {
+    return reinterpret_cast<const XmsgImMgrNeXscWorkerCountRsp*>(
+               &_XmsgImMgrNeXscWorkerCountRsp_default_instance_);
+  }
+  static PROTOBUF_CONSTEXPR int const kIndexInFileMessages =
+    4;
+
+  void Swap(XmsgImMgrNeXscWorkerCountRsp* other);
+  friend void swap(XmsgImMgrNeXscWorkerCountRsp& a, XmsgImMgrNeXscWorkerCountRsp& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline XmsgImMgrNeXscWorkerCountRsp* New() const PROTOBUF_FINAL { return New(NULL); }
+
+  XmsgImMgrNeXscWorkerCountRsp* New(::google::protobuf::Arena* arena) const PROTOBUF_FINAL;
+  void CopyFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void MergeFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void CopyFrom(const XmsgImMgrNeXscWorkerCountRsp& from);
+  void MergeFrom(const XmsgImMgrNeXscWorkerCountRsp& from);
+  void Clear() PROTOBUF_FINAL;
+  bool IsInitialized() const PROTOBUF_FINAL;
+
+  size_t ByteSizeLong() const PROTOBUF_FINAL;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) PROTOBUF_FINAL;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const PROTOBUF_FINAL;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const PROTOBUF_FINAL;
+  int GetCachedSize() const PROTOBUF_FINAL { return _cached_size_; }
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const PROTOBUF_FINAL;
+  void InternalSwap(XmsgImMgrNeXscWorkerCountRsp* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const PROTOBUF_FINAL;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:XmsgImMgrNeXscWorkerCountRsp)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint32 count_;
+  mutable int _cached_size_;
+  friend struct ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::TableStruct;
+  friend void ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::InitDefaultsXmsgImMgrNeXscWorkerCountRspImpl();
+};
 // -------------------------------------------------------------------
 
 class XmsgImMgrNeNetLoadReq : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:XmsgImMgrNeNetLoadReq) */ {
@@ -131,7 +578,7 @@ class XmsgImMgrNeNetLoadReq : public ::google::protobuf::Message /* @@protoc_ins
                &_XmsgImMgrNeNetLoadReq_default_instance_);
   }
   static PROTOBUF_CONSTEXPR int const kIndexInFileMessages =
-    1;
+    5;
 
   void Swap(XmsgImMgrNeNetLoadReq* other);
   friend void swap(XmsgImMgrNeNetLoadReq& a, XmsgImMgrNeNetLoadReq& b) {
@@ -176,53 +623,38 @@ class XmsgImMgrNeNetLoadReq : public ::google::protobuf::Message /* @@protoc_ins
 
   // nested types ----------------------------------------------------
 
-
   // accessors -------------------------------------------------------
 
-  // map<string, string> ext = 1;
-  int ext_size() const;
-  void clear_ext();
-  static const int kExtFieldNumber = 1;
-  const ::google::protobuf::Map< ::std::string, ::std::string >&
-      ext() const;
-  ::google::protobuf::Map< ::std::string, ::std::string >*
-      mutable_ext();
+  // string name = 1;
+  void clear_name();
+  static const int kNameFieldNumber = 1;
+  const ::std::string& name() const;
+  void set_name(const ::std::string& value);
+  #if LANG_CXX11
+  void set_name(::std::string&& value);
+  #endif
+  void set_name(const char* value);
+  void set_name(const char* value, size_t size);
+  ::std::string* mutable_name();
+  ::std::string* release_name();
+  void set_allocated_name(::std::string* name);
+
+  // uint32 indx = 2;
+  void clear_indx();
+  static const int kIndxFieldNumber = 2;
+  ::google::protobuf::uint32 indx() const;
+  void set_indx(::google::protobuf::uint32 value);
 
   // @@protoc_insertion_point(class_scope:XmsgImMgrNeNetLoadReq)
  private:
 
   ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
-  ::google::protobuf::internal::MapField<
-      XmsgImMgrNeNetLoadReq_ExtEntry_DoNotUse,
-      ::std::string, ::std::string,
-      ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
-      ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
-      0 > ext_;
+  ::google::protobuf::internal::ArenaStringPtr name_;
+  ::google::protobuf::uint32 indx_;
   mutable int _cached_size_;
   friend struct ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::TableStruct;
   friend void ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::InitDefaultsXmsgImMgrNeNetLoadReqImpl();
 };
-// -------------------------------------------------------------------
-
-class XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse : public ::google::protobuf::internal::MapEntry<XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse, 
-    ::std::string, ::std::string,
-    ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
-    ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
-    0 > {
-public:
-  typedef ::google::protobuf::internal::MapEntry<XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse, 
-    ::std::string, ::std::string,
-    ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
-    ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
-    0 > SuperType;
-  XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse();
-  XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse(::google::protobuf::Arena* arena);
-  void MergeFrom(const XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse& other);
-  static const XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse* internal_default_instance() { return reinterpret_cast<const XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse*>(&_XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse_default_instance_); }
-  void MergeFrom(const ::google::protobuf::Message& other) PROTOBUF_FINAL;
-  ::google::protobuf::Metadata GetMetadata() const;
-};
-
 // -------------------------------------------------------------------
 
 class XmsgImMgrNeNetLoadRsp : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:XmsgImMgrNeNetLoadRsp) */ {
@@ -260,7 +692,7 @@ class XmsgImMgrNeNetLoadRsp : public ::google::protobuf::Message /* @@protoc_ins
                &_XmsgImMgrNeNetLoadRsp_default_instance_);
   }
   static PROTOBUF_CONSTEXPR int const kIndexInFileMessages =
-    3;
+    6;
 
   void Swap(XmsgImMgrNeNetLoadRsp* other);
   friend void swap(XmsgImMgrNeNetLoadRsp& a, XmsgImMgrNeNetLoadRsp& b) {
@@ -305,28 +737,54 @@ class XmsgImMgrNeNetLoadRsp : public ::google::protobuf::Message /* @@protoc_ins
 
   // nested types ----------------------------------------------------
 
-
   // accessors -------------------------------------------------------
 
-  // map<string, string> kv = 1;
-  int kv_size() const;
-  void clear_kv();
-  static const int kKvFieldNumber = 1;
-  const ::google::protobuf::Map< ::std::string, ::std::string >&
-      kv() const;
-  ::google::protobuf::Map< ::std::string, ::std::string >*
-      mutable_kv();
+  // uint64 rxBytes = 1;
+  void clear_rxbytes();
+  static const int kRxBytesFieldNumber = 1;
+  ::google::protobuf::uint64 rxbytes() const;
+  void set_rxbytes(::google::protobuf::uint64 value);
+
+  // uint64 rxMsgs = 2;
+  void clear_rxmsgs();
+  static const int kRxMsgsFieldNumber = 2;
+  ::google::protobuf::uint64 rxmsgs() const;
+  void set_rxmsgs(::google::protobuf::uint64 value);
+
+  // uint64 txBytes = 3;
+  void clear_txbytes();
+  static const int kTxBytesFieldNumber = 3;
+  ::google::protobuf::uint64 txbytes() const;
+  void set_txbytes(::google::protobuf::uint64 value);
+
+  // uint64 txMsgs = 4;
+  void clear_txmsgs();
+  static const int kTxMsgsFieldNumber = 4;
+  ::google::protobuf::uint64 txmsgs() const;
+  void set_txmsgs(::google::protobuf::uint64 value);
+
+  // uint64 n2hTotal = 5;
+  void clear_n2htotal();
+  static const int kN2HTotalFieldNumber = 5;
+  ::google::protobuf::uint64 n2htotal() const;
+  void set_n2htotal(::google::protobuf::uint64 value);
+
+  // uint64 n2hDestory = 6;
+  void clear_n2hdestory();
+  static const int kN2HDestoryFieldNumber = 6;
+  ::google::protobuf::uint64 n2hdestory() const;
+  void set_n2hdestory(::google::protobuf::uint64 value);
 
   // @@protoc_insertion_point(class_scope:XmsgImMgrNeNetLoadRsp)
  private:
 
   ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
-  ::google::protobuf::internal::MapField<
-      XmsgImMgrNeNetLoadRsp_KvEntry_DoNotUse,
-      ::std::string, ::std::string,
-      ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
-      ::google::protobuf::internal::WireFormatLite::TYPE_STRING,
-      0 > kv_;
+  ::google::protobuf::uint64 rxbytes_;
+  ::google::protobuf::uint64 rxmsgs_;
+  ::google::protobuf::uint64 txbytes_;
+  ::google::protobuf::uint64 txmsgs_;
+  ::google::protobuf::uint64 n2htotal_;
+  ::google::protobuf::uint64 n2hdestory_;
   mutable int _cached_size_;
   friend struct ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::TableStruct;
   friend void ::protobuf_mgr_2dx_2dmsg_2dne_2eproto::InitDefaultsXmsgImMgrNeNetLoadRspImpl();
@@ -342,53 +800,342 @@ class XmsgImMgrNeNetLoadRsp : public ::google::protobuf::Message /* @@protoc_ins
 #endif  // __GNUC__
 // -------------------------------------------------------------------
 
-// XmsgImMgrNeNetLoadReq
+// XmsgImMgrNeXscServerQueryReq
 
 // map<string, string> ext = 1;
-inline int XmsgImMgrNeNetLoadReq::ext_size() const {
+inline int XmsgImMgrNeXscServerQueryReq::ext_size() const {
   return ext_.size();
 }
-inline void XmsgImMgrNeNetLoadReq::clear_ext() {
+inline void XmsgImMgrNeXscServerQueryReq::clear_ext() {
   ext_.Clear();
 }
 inline const ::google::protobuf::Map< ::std::string, ::std::string >&
-XmsgImMgrNeNetLoadReq::ext() const {
-  // @@protoc_insertion_point(field_map:XmsgImMgrNeNetLoadReq.ext)
+XmsgImMgrNeXscServerQueryReq::ext() const {
+  // @@protoc_insertion_point(field_map:XmsgImMgrNeXscServerQueryReq.ext)
   return ext_.GetMap();
 }
 inline ::google::protobuf::Map< ::std::string, ::std::string >*
-XmsgImMgrNeNetLoadReq::mutable_ext() {
-  // @@protoc_insertion_point(field_mutable_map:XmsgImMgrNeNetLoadReq.ext)
+XmsgImMgrNeXscServerQueryReq::mutable_ext() {
+  // @@protoc_insertion_point(field_mutable_map:XmsgImMgrNeXscServerQueryReq.ext)
   return ext_.MutableMap();
 }
 
 // -------------------------------------------------------------------
 
+// XmsgImMgrNeXscServerQueryRsp
+
+// repeated string name = 1;
+inline int XmsgImMgrNeXscServerQueryRsp::name_size() const {
+  return name_.size();
+}
+inline void XmsgImMgrNeXscServerQueryRsp::clear_name() {
+  name_.Clear();
+}
+inline const ::std::string& XmsgImMgrNeXscServerQueryRsp::name(int index) const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeXscServerQueryRsp.name)
+  return name_.Get(index);
+}
+inline ::std::string* XmsgImMgrNeXscServerQueryRsp::mutable_name(int index) {
+  // @@protoc_insertion_point(field_mutable:XmsgImMgrNeXscServerQueryRsp.name)
+  return name_.Mutable(index);
+}
+inline void XmsgImMgrNeXscServerQueryRsp::set_name(int index, const ::std::string& value) {
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeXscServerQueryRsp.name)
+  name_.Mutable(index)->assign(value);
+}
+#if LANG_CXX11
+inline void XmsgImMgrNeXscServerQueryRsp::set_name(int index, ::std::string&& value) {
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeXscServerQueryRsp.name)
+  name_.Mutable(index)->assign(std::move(value));
+}
+#endif
+inline void XmsgImMgrNeXscServerQueryRsp::set_name(int index, const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  name_.Mutable(index)->assign(value);
+  // @@protoc_insertion_point(field_set_char:XmsgImMgrNeXscServerQueryRsp.name)
+}
+inline void XmsgImMgrNeXscServerQueryRsp::set_name(int index, const char* value, size_t size) {
+  name_.Mutable(index)->assign(
+    reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_set_pointer:XmsgImMgrNeXscServerQueryRsp.name)
+}
+inline ::std::string* XmsgImMgrNeXscServerQueryRsp::add_name() {
+  // @@protoc_insertion_point(field_add_mutable:XmsgImMgrNeXscServerQueryRsp.name)
+  return name_.Add();
+}
+inline void XmsgImMgrNeXscServerQueryRsp::add_name(const ::std::string& value) {
+  name_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add:XmsgImMgrNeXscServerQueryRsp.name)
+}
+#if LANG_CXX11
+inline void XmsgImMgrNeXscServerQueryRsp::add_name(::std::string&& value) {
+  name_.Add(std::move(value));
+  // @@protoc_insertion_point(field_add:XmsgImMgrNeXscServerQueryRsp.name)
+}
+#endif
+inline void XmsgImMgrNeXscServerQueryRsp::add_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  name_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add_char:XmsgImMgrNeXscServerQueryRsp.name)
+}
+inline void XmsgImMgrNeXscServerQueryRsp::add_name(const char* value, size_t size) {
+  name_.Add()->assign(reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_add_pointer:XmsgImMgrNeXscServerQueryRsp.name)
+}
+inline const ::google::protobuf::RepeatedPtrField< ::std::string>&
+XmsgImMgrNeXscServerQueryRsp::name() const {
+  // @@protoc_insertion_point(field_list:XmsgImMgrNeXscServerQueryRsp.name)
+  return name_;
+}
+inline ::google::protobuf::RepeatedPtrField< ::std::string>*
+XmsgImMgrNeXscServerQueryRsp::mutable_name() {
+  // @@protoc_insertion_point(field_mutable_list:XmsgImMgrNeXscServerQueryRsp.name)
+  return &name_;
+}
+
+// -------------------------------------------------------------------
+
+// XmsgImMgrNeXscWorkerCountReq
+
+// string name = 1;
+inline void XmsgImMgrNeXscWorkerCountReq::clear_name() {
+  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& XmsgImMgrNeXscWorkerCountReq::name() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeXscWorkerCountReq.name)
+  return name_.GetNoArena();
+}
+inline void XmsgImMgrNeXscWorkerCountReq::set_name(const ::std::string& value) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeXscWorkerCountReq.name)
+}
+#if LANG_CXX11
+inline void XmsgImMgrNeXscWorkerCountReq::set_name(::std::string&& value) {
+  
+  name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:XmsgImMgrNeXscWorkerCountReq.name)
+}
+#endif
+inline void XmsgImMgrNeXscWorkerCountReq::set_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:XmsgImMgrNeXscWorkerCountReq.name)
+}
+inline void XmsgImMgrNeXscWorkerCountReq::set_name(const char* value, size_t size) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:XmsgImMgrNeXscWorkerCountReq.name)
+}
+inline ::std::string* XmsgImMgrNeXscWorkerCountReq::mutable_name() {
+  
+  // @@protoc_insertion_point(field_mutable:XmsgImMgrNeXscWorkerCountReq.name)
+  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* XmsgImMgrNeXscWorkerCountReq::release_name() {
+  // @@protoc_insertion_point(field_release:XmsgImMgrNeXscWorkerCountReq.name)
+  
+  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void XmsgImMgrNeXscWorkerCountReq::set_allocated_name(::std::string* name) {
+  if (name != NULL) {
+    
+  } else {
+    
+  }
+  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
+  // @@protoc_insertion_point(field_set_allocated:XmsgImMgrNeXscWorkerCountReq.name)
+}
+
+// -------------------------------------------------------------------
+
+// XmsgImMgrNeXscWorkerCountRsp
+
+// uint32 count = 1;
+inline void XmsgImMgrNeXscWorkerCountRsp::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 XmsgImMgrNeXscWorkerCountRsp::count() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeXscWorkerCountRsp.count)
+  return count_;
+}
+inline void XmsgImMgrNeXscWorkerCountRsp::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeXscWorkerCountRsp.count)
+}
+
+// -------------------------------------------------------------------
+
+// XmsgImMgrNeNetLoadReq
+
+// string name = 1;
+inline void XmsgImMgrNeNetLoadReq::clear_name() {
+  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& XmsgImMgrNeNetLoadReq::name() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeNetLoadReq.name)
+  return name_.GetNoArena();
+}
+inline void XmsgImMgrNeNetLoadReq::set_name(const ::std::string& value) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeNetLoadReq.name)
+}
+#if LANG_CXX11
+inline void XmsgImMgrNeNetLoadReq::set_name(::std::string&& value) {
+  
+  name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:XmsgImMgrNeNetLoadReq.name)
+}
+#endif
+inline void XmsgImMgrNeNetLoadReq::set_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:XmsgImMgrNeNetLoadReq.name)
+}
+inline void XmsgImMgrNeNetLoadReq::set_name(const char* value, size_t size) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:XmsgImMgrNeNetLoadReq.name)
+}
+inline ::std::string* XmsgImMgrNeNetLoadReq::mutable_name() {
+  
+  // @@protoc_insertion_point(field_mutable:XmsgImMgrNeNetLoadReq.name)
+  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* XmsgImMgrNeNetLoadReq::release_name() {
+  // @@protoc_insertion_point(field_release:XmsgImMgrNeNetLoadReq.name)
+  
+  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void XmsgImMgrNeNetLoadReq::set_allocated_name(::std::string* name) {
+  if (name != NULL) {
+    
+  } else {
+    
+  }
+  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
+  // @@protoc_insertion_point(field_set_allocated:XmsgImMgrNeNetLoadReq.name)
+}
+
+// uint32 indx = 2;
+inline void XmsgImMgrNeNetLoadReq::clear_indx() {
+  indx_ = 0u;
+}
+inline ::google::protobuf::uint32 XmsgImMgrNeNetLoadReq::indx() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeNetLoadReq.indx)
+  return indx_;
+}
+inline void XmsgImMgrNeNetLoadReq::set_indx(::google::protobuf::uint32 value) {
+  
+  indx_ = value;
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeNetLoadReq.indx)
+}
+
 // -------------------------------------------------------------------
 
 // XmsgImMgrNeNetLoadRsp
 
-// map<string, string> kv = 1;
-inline int XmsgImMgrNeNetLoadRsp::kv_size() const {
-  return kv_.size();
+// uint64 rxBytes = 1;
+inline void XmsgImMgrNeNetLoadRsp::clear_rxbytes() {
+  rxbytes_ = GOOGLE_ULONGLONG(0);
 }
-inline void XmsgImMgrNeNetLoadRsp::clear_kv() {
-  kv_.Clear();
+inline ::google::protobuf::uint64 XmsgImMgrNeNetLoadRsp::rxbytes() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeNetLoadRsp.rxBytes)
+  return rxbytes_;
 }
-inline const ::google::protobuf::Map< ::std::string, ::std::string >&
-XmsgImMgrNeNetLoadRsp::kv() const {
-  // @@protoc_insertion_point(field_map:XmsgImMgrNeNetLoadRsp.kv)
-  return kv_.GetMap();
+inline void XmsgImMgrNeNetLoadRsp::set_rxbytes(::google::protobuf::uint64 value) {
+  
+  rxbytes_ = value;
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeNetLoadRsp.rxBytes)
 }
-inline ::google::protobuf::Map< ::std::string, ::std::string >*
-XmsgImMgrNeNetLoadRsp::mutable_kv() {
-  // @@protoc_insertion_point(field_mutable_map:XmsgImMgrNeNetLoadRsp.kv)
-  return kv_.MutableMap();
+
+// uint64 rxMsgs = 2;
+inline void XmsgImMgrNeNetLoadRsp::clear_rxmsgs() {
+  rxmsgs_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 XmsgImMgrNeNetLoadRsp::rxmsgs() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeNetLoadRsp.rxMsgs)
+  return rxmsgs_;
+}
+inline void XmsgImMgrNeNetLoadRsp::set_rxmsgs(::google::protobuf::uint64 value) {
+  
+  rxmsgs_ = value;
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeNetLoadRsp.rxMsgs)
+}
+
+// uint64 txBytes = 3;
+inline void XmsgImMgrNeNetLoadRsp::clear_txbytes() {
+  txbytes_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 XmsgImMgrNeNetLoadRsp::txbytes() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeNetLoadRsp.txBytes)
+  return txbytes_;
+}
+inline void XmsgImMgrNeNetLoadRsp::set_txbytes(::google::protobuf::uint64 value) {
+  
+  txbytes_ = value;
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeNetLoadRsp.txBytes)
+}
+
+// uint64 txMsgs = 4;
+inline void XmsgImMgrNeNetLoadRsp::clear_txmsgs() {
+  txmsgs_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 XmsgImMgrNeNetLoadRsp::txmsgs() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeNetLoadRsp.txMsgs)
+  return txmsgs_;
+}
+inline void XmsgImMgrNeNetLoadRsp::set_txmsgs(::google::protobuf::uint64 value) {
+  
+  txmsgs_ = value;
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeNetLoadRsp.txMsgs)
+}
+
+// uint64 n2hTotal = 5;
+inline void XmsgImMgrNeNetLoadRsp::clear_n2htotal() {
+  n2htotal_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 XmsgImMgrNeNetLoadRsp::n2htotal() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeNetLoadRsp.n2hTotal)
+  return n2htotal_;
+}
+inline void XmsgImMgrNeNetLoadRsp::set_n2htotal(::google::protobuf::uint64 value) {
+  
+  n2htotal_ = value;
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeNetLoadRsp.n2hTotal)
+}
+
+// uint64 n2hDestory = 6;
+inline void XmsgImMgrNeNetLoadRsp::clear_n2hdestory() {
+  n2hdestory_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 XmsgImMgrNeNetLoadRsp::n2hdestory() const {
+  // @@protoc_insertion_point(field_get:XmsgImMgrNeNetLoadRsp.n2hDestory)
+  return n2hdestory_;
+}
+inline void XmsgImMgrNeNetLoadRsp::set_n2hdestory(::google::protobuf::uint64 value) {
+  
+  n2hdestory_ = value;
+  // @@protoc_insertion_point(field_set:XmsgImMgrNeNetLoadRsp.n2hDestory)
 }
 
 #ifdef __GNUC__
   #pragma GCC diagnostic pop
 #endif  // __GNUC__
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
 // -------------------------------------------------------------------
 
 // -------------------------------------------------------------------
